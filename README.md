@@ -1,6 +1,6 @@
-# Ponto_de_Acesso
+# Ponto_e_Acesso
 
-**Esta é uma API REST para controle de pontos de acesso**
+**Esta é uma API REST para controle de ponto e acesso**
 
 Foram utilizados:
 - Spring Boot
