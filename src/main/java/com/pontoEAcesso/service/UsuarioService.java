@@ -47,12 +47,6 @@ public class UsuarioService {
 	}
 	
 	
-	/*public List<Usuario> findAllByCategoriaUsuario(Long idCategoriaUsuario) {
-		categoriaUsuarioService.findById(idCategoriaUsuario);
-		return usuarioRepository.findAllByCategoriaUsuario(idCategoriaUsuario);
-	}*/
-	
-	
 	public Usuario update(Long id, Usuario usuarioAtualizado) {
 		Usuario usuarioParaAtualizar = this.findById(id);
 		updateObject(usuarioParaAtualizar, usuarioAtualizado);

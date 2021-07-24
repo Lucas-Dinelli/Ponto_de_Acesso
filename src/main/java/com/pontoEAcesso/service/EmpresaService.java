@@ -40,7 +40,14 @@ public class EmpresaService {
 	}
 	
 	private void updateObject(Empresa empresaParaAtualizar, Empresa empresaAtualizada) {
+		empresaParaAtualizar.setNome(empresaAtualizada.getNome());
 		empresaParaAtualizar.setDescricao(empresaAtualizada.getDescricao());
+		empresaParaAtualizar.setCnpj(empresaAtualizada.getCnpj());
+		empresaParaAtualizar.setEndereco(empresaAtualizada.getEndereco());
+		empresaParaAtualizar.setBairro(empresaAtualizada.getBairro());
+		empresaParaAtualizar.setCidade(empresaAtualizada.getCidade());
+		empresaParaAtualizar.setEstado(empresaAtualizada.getEstado());
+		empresaParaAtualizar.setTelefone(empresaAtualizada.getTelefone());
 	}
 	
 	

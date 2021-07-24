@@ -42,19 +42,6 @@ public class MovimentacaoService {
 		return obj.orElseThrow(() -> new ObjectNotFoundException("Nenhuma movimentação encontrada!"));
 	}
 	
-	/*public MovimentacaoId findMovimentacaoId(Long idUsuario, Long idMovimentacao) {
-		MovimentacaoId movimentacaoId = new MovimentacaoId(idMovimentacao, idUsuario);
-		movimentacao.getMovimentacaoId().setIdMovimento(idMovimentacao);
-		movimentacao.getMovimentacaoId().setIdUsuario(idUsuario);
-		return movimentacao.getMovimentacaoId();
-	}*/
-	
-	
-	/*public List<Usuario> findAllByCategoriaUsuario(Long idCategoriaUsuario) {
-		categoriaUsuarioService.findById(idCategoriaUsuario);
-		return usuarioRepository.findAllByCategoriaUsuario(idCategoriaUsuario);
-	}*/
-	
 	
 	public Movimentacao update(Long id, Movimentacao movimentacaoAtualizada) {
 		Movimentacao movimentacaoParaAtualizar = this.findById(id);

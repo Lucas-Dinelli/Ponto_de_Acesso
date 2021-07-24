@@ -41,6 +41,7 @@ public class CalendarioService {
 	
 	private void updateObject(Calendario calendarioParaAtualizar, Calendario calendarioAtualizado) {
 		calendarioParaAtualizar.setDescricao(calendarioAtualizado.getDescricao());
+		calendarioParaAtualizar.setDataEspecial(calendarioAtualizado.getDataEspecial());
 	}
 	
 	

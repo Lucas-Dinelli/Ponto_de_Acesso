@@ -40,6 +40,7 @@ public class OcorrenciaService {
 	}
 	
 	private void updateObject(Ocorrencia ocorrenciaParaAtualizar, Ocorrencia ocorrenciaAtualizada) {
+		ocorrenciaParaAtualizar.setNome(ocorrenciaAtualizada.getNome());
 		ocorrenciaParaAtualizar.setDescricao(ocorrenciaAtualizada.getDescricao());
 	}
 	
